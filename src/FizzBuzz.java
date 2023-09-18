@@ -4,11 +4,11 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
-
-        int i = 1;
-        while (i < 100) {
-
-            i = doFizzBuzz(i);
+        // args is the variable name for input
+        int intValue = Integer.parseInt(args[0]);
+        while (intValue < 100) {
+            intValue = doFizzBuzz(intValue);
+            intValue++;
         }
     }
 
@@ -35,7 +35,6 @@ class FizzBuzz {
             System.out.println(i);
 
         }
-        i++;
         return i;
     }
 }
