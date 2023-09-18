@@ -5,7 +5,7 @@ class FizzBuzz {
 
     public static void main(String[] args) {
         // args is the variable name for input
-        int intValue = Integer.parseInt(args[0]);
+        int intValue = Integer.parseInt(args[0]); // change input type to integer
         while (intValue < 100) {
             intValue = doFizzBuzz(intValue);
             intValue++;
