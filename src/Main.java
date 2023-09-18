@@ -5,6 +5,6 @@ public class Main {
 
         //Task 3.2
         String[] myArray = {"5"};
-        FizzBuzz2.main(myArray);
+        FizzBuzz.main(myArray);
     }
 }
